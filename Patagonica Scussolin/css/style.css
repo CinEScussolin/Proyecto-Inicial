@@ -63,9 +63,10 @@
     display: inline-block;
     margin-bottom: 10px;
     padding-left: 40px;
+    font-size: 3vh;
     
-
 }
+
 .nav__link{
     text-decoration:none;
     margin-left: 15px;
@@ -79,6 +80,10 @@
     
     
     
+}
+
+.nav__link--active:hover{
+    font-size: 3.5vh;
 }
 
 .nav__link--active{
