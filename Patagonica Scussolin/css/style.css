@@ -31,7 +31,11 @@
     background-color: rgb(51, 82, 82);
     color: rgb(127, 127, 199);
     font-family: 'Quintessential', cursive;
+    font-size: 7vh;
 
+}
+.header__title:hover{
+    font-size: 10vh;
 }
 
 .nav{
