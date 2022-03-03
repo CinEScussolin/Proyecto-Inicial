@@ -31,7 +31,11 @@
     background-color: rgb(51, 82, 82);
     color: rgb(127, 127, 199);
     font-family: 'Quintessential', cursive;
+    font-size: 7vh;
 
+}
+.header__title:hover{
+    font-size: 10vh;
 }
 
 .nav{
@@ -59,10 +63,15 @@
     display: inline-block;
     margin-bottom: 10px;
     padding-left: 40px;
+    font-size: 3vh;
     
-
 }
+<<<<<<< HEAD
 .link{
+=======
+
+.nav__link{
+>>>>>>> animaciones
     text-decoration:none;
     margin-left: 15px;
     border-radius: 5px;
@@ -77,8 +86,17 @@
     
 }
 
+<<<<<<< HEAD
 .link--active{
     color: rgb(40, 190, 183);
+=======
+.nav__link--active:hover{
+    font-size: 3.5vh;
+}
+
+.nav__link--active{
+    color: blueviolet;
+>>>>>>> animaciones
     font-weight: 600;
     border-bottom: 2px solid black;
 }
